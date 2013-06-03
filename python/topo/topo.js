@@ -9,8 +9,8 @@ var svg = d3.select("#chart")
 
 d3.json("topo.json", function(json) {
   var topo = d3.layout.force()
-  .charge(-120)
-  .linkDistance(30)
+  .charge(-300)
+  .linkDistance(100)
   .nodes(json.nodes)
   .links(json.links)
   .size([w, h])
