@@ -12,7 +12,10 @@ containerName = 'default/'
 
 h = httplib2.Http(".cache")
 h.add_credentials('admin', 'admin')
-
+def build_flow_url(baseUrl, containerName, switchId, flowName):
+  #postUrl = baseUrl + 'flow/' + containerName + '/' + switchId + '/' + flowName + '/'
+  postUrl = '/'.join([baseUrl, 'flow', containerName, switchId, flowName])
+  return postUrl
 def post_dict(h, url, d):
   resp, content = h.request(
       uri = url,
@@ -20,8 +23,6 @@ def post_dict(h, url, d):
       headers={'Content-Type' : 'application/json'},
       body=json.dumps(d),
       )
-  print resp
-  print content
 
 # Get all the edges/links
 resp, content = h.request(baseUrl + 'topology/' + containerName, "GET")
@@ -56,24 +57,30 @@ print graph.nodes()
 print "shortest path from 3 to 7" 
 shortest_path = nx.shortest_path(graph, "00:00:00:00:00:00:00:03", "00:00:00:00:00:00:00:07")
 print shortest_path
+newFlow = {}
+srcIP = "10.0.0.7"
+dstIP = "10.0.0.3"
+etherTypeIP = "0x800"
+defaultPriority = "500"
 for edge in odlEdges:
   if edge['edge']['headNodeConnector']['node']['@id'] == shortest_path[0] and edge['edge']['tailNodeConnector']['node']['@id'] == shortest_path[1]:
     print json.dumps(edge, indent=2)
     print "ingress port "
     print "OUTPUT Port = "
+    outputPort = "OUTPUT=" + str(edge['edge']['headNodeConnector']['@id'])
+    flowName = "test3"
     print edge['edge']['headNodeConnector']['@id']
-flowName = "test2/"
-switchId = "OF/00:00:00:00:00:00:00:07/"
-newFlow = {"installInHw":"false","name":"test2","node":{"@id":"00:00:00:00:00:00:00:07","@type":"OF"},"ingressPort":"1","priority":"500","etherType":"0x800","nwSrc":"10.0.0.7","nwDst":"10.0.0.3","actions":"OUTPUT=2"}
+    newFlow.update({"installInHw":"false", "name":flowName})
+    # Adding the flow to the head node
+    newFlow.update({"node":edge['edge']['headNodeConnector']['node']})
+    newFlow.update({"ingressPort":edge['edge']['headNodeConnector']['@id'], "priority":defaultPriority, "etherType":etherTypeIP, "nwSrc":srcIP, "nwDst":dstIP, "actions":outputPort})
+
+switchId = "OF/00:00:00:00:00:00:00:07"
+#newFlow = {"installInHw":"false","name":"test2","node":{"@id":"00:00:00:00:00:00:00:07","@type":"OF"},"ingressPort":"1","priority":"500","etherType":"0x800","nwSrc":"10.0.0.7","nwDst":"10.0.0.3","actions":"OUTPUT=2"}
 print "*** dump new flow***"
 print json.dumps(newFlow)
-postUrl = baseUrl + 'flow/' + containerName + switchId + flowName
+postUrl = build_flow_url(baseUrl, 'default', switchId, flowName)
+print ""
 print postUrl
-post_dict(h, postUrl, newFlow)
-
-# write json formatted data to use in visualization
-d = json_graph.node_link_data(graph)
-json.dump(d, open('topo.json','w'))
-print('Wrote node-link JSON data')
-
+#post_dict(h, postUrl, newFlow)
 
