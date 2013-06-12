@@ -19,9 +19,22 @@ containerName = 'default'
 
 h = httplib2.Http(".cache")
 h.add_credentials('admin', 'admin')
+def push_path(path, odlEdges, srcIP, dstIP, baseUrl):
+  for i, node in enumerate(path[1:-1]):
+    flowName = "from " + srcIP + ":" + str(i)
+    ingressEdge = next(edge for edge in odlEdges if edge['edge']['headNodeConnector']['node']['@id'] == shortest_path[i] and edge['edge']['tailNodeConnector']['node']['@id'] == node)
+    egressEdge = next(edge for edge in odlEdges if edge['edge']['headNodeConnector']['node']['@id'] == node and edge['edge']['tailNodeConnector']['node']['@id'] == shortest_path[i+2])
+    print "***"
+    newFlow = build_flow_entry(flowName, ingressEdge, egressEdge, node, srcIP, dstIP)
+    print json.dumps(newFlow)
+    switchType = newFlow['node']['@type']
+    postUrl = build_flow_url(baseUrl, 'default', switchType, node, flowName)
+    # post the flow to the controller
+    #resp, content = post_dict(h, postUrl, newFlow)
+
 def build_flow_entry(flowName, ingressEdge, egressEdge, node, srcIP, dstIP):
   # *** Example flow: newFlow = {"installInHw":"false","name":"test2","node":{"@id":"00:00:00:00:00:00:00:07","@type":"OF"},"ingressPort":"1","priority":"500","etherType":"0x800","nwSrc":"10.0.0.7","nwDst":"10.0.0.3","actions":"OUTPUT=2"}
-  etherTypeIP = "0x800"
+  #etherTypeIP = "0x800"
   defaultPriority = "500"
   newFlow = {"installInHw":"false"}
   ingressPort = ingressEdge['edge']['tailNodeConnector']['@id']
@@ -29,7 +42,7 @@ def build_flow_entry(flowName, ingressEdge, egressEdge, node, srcIP, dstIP):
   switchType = egressEdge['edge']['headNodeConnector']['node']['@type']
   newFlow.update({"name":flowName})
   newFlow.update({"node":ingressEdge['edge']['tailNodeConnector']['node']})
-  newFlow.update({"ingressPort":ingressPort, "priority":defaultPriority, "etherType":etherTypeIP, "nwSrc":srcIP, "nwDst":dstIP, "actions":"OUTPUT=" + egressPort})
+  newFlow.update({"ingressPort":ingressPort, "priority":defaultPriority, "nwSrc":srcIP, "nwDst":dstIP, "actions":"OUTPUT=" + egressPort})
   return newFlow
 
 def build_url(baseUrl, service, containerName):
@@ -90,4 +103,13 @@ for i, node in enumerate(shortest_path[1:-1]):
   postUrl = build_flow_url(baseUrl, 'default', switchType, node, flowName)
   # post the flow to the controller
   #resp, content = post_dict(h, postUrl, newFlow)
+# Do the same as above but for the reverse direction
+shortest_path.reverse()
+print shortest_path
+push_path(shortest_path, odlEdges, dstIP, srcIP, baseUrl)
 
+# Now we need to add the flows for the hosts
+
+
+hostFlow3 = {"installInHw":"false","name":"test2","node":{"@id":"00:00:00:00:00:00:00:07","@type":"OF"},"ingressPort":"1","priority":"500","nwSrc":"10.0.0.7","nwDst":"10.0.0.3","actions":"OUTPUT=2"}
+hostFlow7 = {"installInHw":"false","name":"test2","node":{"@id":"00:00:00:00:00:00:00:07","@type":"OF"},"ingressPort":"1","priority":"500","nwSrc":"10.0.0.7","nwDst":"10.0.0.3","actions":"OUTPUT=2"}
