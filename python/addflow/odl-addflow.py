@@ -21,7 +21,7 @@ h = httplib2.Http(".cache")
 h.add_credentials('admin', 'admin')
 def push_path(path, odlEdges, srcIP, dstIP, baseUrl):
   for i, node in enumerate(path[1:-1]):
-    flowName = "from " + srcIP + ":" + str(i)
+    flowName = "fromIP" + srcIP[-1:] + "Po" + str(i)
     ingressEdge = next(edge for edge in odlEdges if edge['edge']['headNodeConnector']['node']['@id'] == shortest_path[i] and edge['edge']['tailNodeConnector']['node']['@id'] == node)
     egressEdge = next(edge for edge in odlEdges if edge['edge']['headNodeConnector']['node']['@id'] == node and edge['edge']['tailNodeConnector']['node']['@id'] == shortest_path[i+2])
     print "***"
@@ -30,7 +30,8 @@ def push_path(path, odlEdges, srcIP, dstIP, baseUrl):
     switchType = newFlow['node']['@type']
     postUrl = build_flow_url(baseUrl, 'default', switchType, node, flowName)
     # post the flow to the controller
-    #resp, content = post_dict(h, postUrl, newFlow)
+    resp, content = post_dict(h, postUrl, newFlow)
+    print resp
 
 def build_flow_entry(flowName, ingressEdge, egressEdge, node, srcIP, dstIP):
   # *** Example flow: newFlow = {"installInHw":"false","name":"test2","node":{"@id":"00:00:00:00:00:00:00:07","@type":"OF"},"ingressPort":"1","priority":"500","etherType":"0x800","nwSrc":"10.0.0.7","nwDst":"10.0.0.3","actions":"OUTPUT=2"}
@@ -47,12 +48,10 @@ def build_flow_entry(flowName, ingressEdge, egressEdge, node, srcIP, dstIP):
 
 def build_url(baseUrl, service, containerName):
   postUrl = '/'.join([baseUrl, service, containerName])
-  print postUrl
   return postUrl
 
 def build_flow_url(baseUrl, containerName, switchType, switchId, flowName):
   postUrl = build_url(baseUrl, 'flow', containerName) + '/'.join(['', switchType, switchId, flowName])
-  print postUrl
   return postUrl
 
 def post_dict(h, url, d):
@@ -68,7 +67,6 @@ def post_dict(h, url, d):
 resp, content = h.request(build_url(baseUrl, 'topology', containerName), "GET")
 edgeProperties = json.loads(content)
 odlEdges = edgeProperties['edgeProperties']
-print json.dumps(odlEdges, indent = 2)
 # Get all the nodes/switches
 resp, content = h.request(build_url(baseUrl, 'switch', containerName) + '/nodes/', "GET")
 nodeProperties = json.loads(content)
@@ -115,7 +113,7 @@ node7FlowFromHost = {"installInHw":"false","name":"node7from","node":{"@id":"00:
 node3FlowToHost = {"installInHw":"false","name":"node3to","node":{"@id":"00:00:00:00:00:00:00:03","@type":"OF"},"ingressPort":"3","priority":"500","nwDst":"10.0.0.1","actions":"OUTPUT=1"}
 node7FlowToHost = {"installInHw":"false","name":"node7to","node":{"@id":"00:00:00:00:00:00:00:07","@type":"OF"},"ingressPort":"3","priority":"500","nwDst":"10.0.0.8","actions":"OUTPUT=2"}
 postUrl = build_flow_url(baseUrl, 'default', "OF", "00:00:00:00:00:00:00:03", "node3from")
-resp, content = post_dict(h, postUrl, node3FlowFromHost)
-print resp
-print content
+#resp, content = post_dict(h, postUrl, node3FlowFromHost)
+#print resp
+#print content
 
