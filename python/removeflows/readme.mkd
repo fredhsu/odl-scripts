@@ -1,0 +1,2 @@
+# Remove Flows
+Quick script to remove all the static flows from the controller
