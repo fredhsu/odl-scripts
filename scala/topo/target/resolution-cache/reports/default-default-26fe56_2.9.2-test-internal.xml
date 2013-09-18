@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="default-26fe56_2.9.2"
+		revision="0.1-SNAPSHOT"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
+		date="20130525174250"/>
+	<dependencies>
+		<module organisation="net.liftweb" name="lift-json_2.9.2">
+			<revision name="2.5-M4" status="release" pubdate="20130112112053" resolver="public" artresolver="public" homepage="http://www.liftweb.net" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="7068" time="582" location="/Users/fhsu/.ivy2/cache/net.liftweb/lift-json_2.9.2/ivy-2.5-M4.xml" searched="true" original-local-location="/Users/fhsu/.ivy2/cache/net.liftweb/lift-json_2.9.2/ivy-2.5-M4.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/liftweb/lift-json_2.9.2/2.5-M4/lift-json_2.9.2-2.5-M4.pom"/>
+				<caller organisation="default" name="default-26fe56_2.9.2" conf="test-internal, test, optional, compile, provided, runtime" rev="2.5-M4" rev-constraint-default="2.5-M4" rev-constraint-dynamic="2.5-M4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="lift-json_2.9.2" type="jar" ext="jar" status="successful" details="" size="469856" time="745" location="/Users/fhsu/.ivy2/cache/net.liftweb/lift-json_2.9.2/jars/lift-json_2.9.2-2.5-M4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/liftweb/lift-json_2.9.2/2.5-M4/lift-json_2.9.2-2.5-M4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.4.1" status="release" pubdate="20120128013343" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="10">
+				<metadata-artifact status="successful" details="" size="2121" time="127" location="/Users/fhsu/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.4.1.xml" searched="true" original-local-location="/Users/fhsu/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.4.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1.pom"/>
+				<caller organisation="net.liftweb" name="lift-json_2.9.2" conf="default, compile, runtime, master" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="2.5-M4"/>
+				<artifacts>
+					<artifact name="paranamer" type="jar" ext="jar" status="successful" details="" size="29734" time="134" location="/Users/fhsu/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scalap">
+			<revision name="2.9.2" status="release" pubdate="20120413053538" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="8">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html
+			"/>
+				<metadata-artifact status="successful" details="" size="1791" time="190" location="/Users/fhsu/.ivy2/cache/org.scala-lang/scalap/ivy-2.9.2.xml" searched="true" original-local-location="/Users/fhsu/.ivy2/cache/org.scala-lang/scalap/ivy-2.9.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scalap/2.9.2/scalap-2.9.2.pom"/>
+				<caller organisation="net.liftweb" name="lift-json_2.9.2" conf="default, compile, runtime, master" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="2.5-M4"/>
+				<artifacts>
+					<artifact name="scalap" type="jar" ext="jar" status="successful" details="" size="842198" time="548" location="/Users/fhsu/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.9.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scalap/2.9.2/scalap-2.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2_2.9.2">
+			<revision name="1.12.3" status="release" pubdate="20121113192318" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="6">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="3105" time="354" location="/Users/fhsu/.ivy2/cache/org.specs2/specs2_2.9.2/ivy-1.12.3.xml" searched="true" original-local-location="/Users/fhsu/.ivy2/cache/org.specs2/specs2_2.9.2/ivy-1.12.3.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/specs2/specs2_2.9.2/1.12.3/specs2_2.9.2-1.12.3.pom"/>
+				<caller organisation="net.liftweb" name="lift-json_2.9.2" conf="default, compile, runtime, master" rev="1.12.3" rev-constraint-default="1.12.3" rev-constraint-dynamic="1.12.3" callerrev="2.5-M4"/>
+				<artifacts>
+					<artifact name="specs2_2.9.2" type="jar" ext="jar" status="successful" details="" size="6578965" time="2464" location="/Users/fhsu/.ivy2/cache/org.specs2/specs2_2.9.2/jars/specs2_2.9.2-1.12.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/specs2/specs2_2.9.2/1.12.3/specs2_2.9.2-1.12.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.9.2" status="release" pubdate="20120413053159" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="9">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2665" time="0" location="/Users/fhsu/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.9.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2.pom"/>
+				<caller organisation="org.scala-lang" name="scalap" conf="compile, runtime" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="2.9.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2-scalaz-core_2.9.2">
+			<revision name="6.0.1" status="release" pubdate="20120415025808" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="7">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="1484" time="136" location="/Users/fhsu/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.2/ivy-6.0.1.xml" searched="true" original-local-location="/Users/fhsu/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.2/ivy-6.0.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.2/6.0.1/specs2-scalaz-core_2.9.2-6.0.1.pom"/>
+				<caller organisation="org.specs2" name="specs2_2.9.2" conf="compile, runtime" rev="6.0.1" rev-constraint-default="6.0.1" rev-constraint-dynamic="6.0.1" callerrev="1.12.3"/>
+				<artifacts>
+					<artifact name="specs2-scalaz-core_2.9.2" type="jar" ext="jar" status="successful" details="" size="4453446" time="1503" location="/Users/fhsu/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.2/jars/specs2-scalaz-core_2.9.2-6.0.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.2/6.0.1/specs2-scalaz-core_2.9.2-6.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder.dispatch" name="core_2.9.2">
+			<revision name="0.9.0" status="release" pubdate="20120723191846" resolver="public" artresolver="public" homepage="http://dispatch.databinder.net/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="LGPL v3" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="2851" time="0" location="/Users/fhsu/.ivy2/cache/net.databinder.dispatch/core_2.9.2/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/databinder/dispatch/core_2.9.2/0.9.0/core_2.9.2-0.9.0.pom"/>
+				<caller organisation="default" name="default-26fe56_2.9.2" conf="test-internal, test, optional, compile, provided, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="core_2.9.2" type="jar" ext="jar" status="no" details="" size="204148" time="0" location="/Users/fhsu/.ivy2/cache/net.databinder.dispatch/core_2.9.2/jars/core_2.9.2-0.9.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/databinder/dispatch/core_2.9.2/0.9.0/core_2.9.2-0.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.ning" name="async-http-client">
+			<revision name="1.7.5" status="release" pubdate="20120517095848" resolver="public" artresolver="public" homepage="http://github.com/sonatype/async-http-client" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="7137" time="0" location="/Users/fhsu/.ivy2/cache/com.ning/async-http-client/ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.5/async-http-client-1.7.5.pom"/>
+				<caller organisation="net.databinder.dispatch" name="core_2.9.2" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="0.9.0"/>
+				<artifacts>
+					<artifact name="async-http-client" type="jar" ext="jar" status="no" details="" size="476213" time="0" location="/Users/fhsu/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.7.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.5/async-http-client-1.7.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.6.2" status="release" pubdate="20110818151308" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
+				<metadata-artifact status="no" details="" size="4133" time="0" location="/Users/fhsu/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2.pom"/>
+				<caller organisation="com.ning" name="async-http-client" conf="compile, runtime" rev="1.6.2" rev-constraint-default="1.6.2" rev-constraint-dynamic="1.6.2" callerrev="1.7.5"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="25689" time="0" location="/Users/fhsu/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.4.4.Final" status="release" pubdate="20120506074940" resolver="public" artresolver="public" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="5915" time="0" location="/Users/fhsu/.ivy2/cache/io.netty/netty/ivy-3.4.4.Final.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.4.4.Final/netty-3.4.4.Final.pom"/>
+				<caller organisation="com.ning" name="async-http-client" conf="compile, runtime" rev="3.4.4.Final" rev-constraint-default="3.4.4.Final" rev-constraint-dynamic="3.4.4.Final" callerrev="1.7.5"/>
+				<artifacts>
+					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="969176" time="0" location="/Users/fhsu/.ivy2/cache/io.netty/netty/bundles/netty-3.4.4.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.4.4.Final/netty-3.4.4.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.9.2" status="release" pubdate="20120413052921" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2391" time="0" location="/Users/fhsu/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.pom"/>
+				<caller organisation="org.specs2" name="specs2-scalaz-core_2.9.2" conf="compile, runtime" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="6.0.1"/>
+				<caller organisation="net.databinder.dispatch" name="core_2.9.2" conf="default, compile, runtime, master" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="0.9.0"/>
+				<caller organisation="net.liftweb" name="lift-json_2.9.2" conf="default, compile, runtime, master" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="2.5-M4"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="2.9.2"/>
+				<caller organisation="default" name="default-26fe56_2.9.2" conf="test-internal, test, optional, compile, provided, runtime" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

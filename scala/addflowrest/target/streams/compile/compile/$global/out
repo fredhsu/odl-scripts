@@ -1,0 +1,27 @@
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(/Users/fhsu/dev/odl-scripts/scala/addflowrest/AddFlowRest.scala)
+[debug] Removed products: Set()
+[debug] Modified external sources: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set(/Users/fhsu/dev/odl-scripts/scala/addflowrest/AddFlowRest.scala)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] Initially invalidated: Set(/Users/fhsu/dev/odl-scripts/scala/addflowrest/AddFlowRest.scala)
+[info] Compiling 1 Scala source to /Users/fhsu/dev/odl-scripts/scala/addflowrest/target/scala-2.9.2/classes...
+[debug] Running cached compiler 64b822b5, interfacing (CompilerInterface) with Scala compiler version 2.9.2
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-d
+[debug] 	/Users/fhsu/dev/odl-scripts/scala/addflowrest/target/scala-2.9.2/classes
+[debug] 	-bootclasspath
+[debug] 	/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/classes:/Users/fhsu/.sbt/boot/scala-2.9.2/lib/scala-library.jar
+[debug] 	-classpath
+[debug] 	/Users/fhsu/dev/odl-scripts/scala/addflowrest/target/scala-2.9.2/classes:/Users/fhsu/.ivy2/cache/net.databinder.dispatch/core_2.9.2/jars/core_2.9.2-0.9.0.jar:/Users/fhsu/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.7.5.jar:/Users/fhsu/.ivy2/cache/io.netty/netty/bundles/netty-3.4.4.Final.jar:/Users/fhsu/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.2.jar:/Users/fhsu/.ivy2/cache/net.liftweb/lift-json_2.9.2/jars/lift-json_2.9.2-2.5-M4.jar:/Users/fhsu/.ivy2/cache/org.specs2/specs2_2.9.2/jars/specs2_2.9.2-1.12.3.jar:/Users/fhsu/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.2/jars/specs2-scalaz-core_2.9.2-6.0.1.jar:/Users/fhsu/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.9.2.jar:/Users/fhsu/.sbt/boot/scala-2.9.2/lib/scala-compiler.jar:/Users/fhsu/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.4.1.jar
+[debug] Scala compilation took 5.251433 s
+[debug] 	Invalidated direct: Set()
+[debug] Incrementally invalidated: Set()

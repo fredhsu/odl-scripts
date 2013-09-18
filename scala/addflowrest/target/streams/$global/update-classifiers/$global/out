@@ -1,0 +1,918 @@
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b977351[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving net.databinder.dispatch#core_2.9.2;0.9.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d9cd5dc[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.databinder.dispatch#core_2.9.2;0.9.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: net.databinder.dispatch#core_2.9.2;0.9.0[0m
+[0m[[0mdebug[0m] [0m	found net.databinder.dispatch#core_2.9.2;0.9.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.ning#async-http-client;1.7.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@421f64d9[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.ning#async-http-client;1.7.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.ning#async-http-client;1.7.5[0m
+[0m[[0mdebug[0m] [0m	found com.ning#async-http-client;1.7.5 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty;3.4.4.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62d86f36[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.netty#netty;3.4.4.Final[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: io.netty#netty;3.4.4.Final[0m
+[0m[[0mdebug[0m] [0m	found io.netty#netty;3.4.4.Final in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.6.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12773b3d[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.6.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-api;1.6.2[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.6.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving net.liftweb#lift-json_2.9.2;2.5-M4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51dfd9b8[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.liftweb#lift-json_2.9.2;2.5-M4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: net.liftweb#lift-json_2.9.2;2.5-M4[0m
+[0m[[0mdebug[0m] [0m	found net.liftweb#lift-json_2.9.2;2.5-M4 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.specs2#specs2_2.9.2;1.12.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37d4b6a2[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.specs2#specs2_2.9.2;1.12.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.specs2#specs2_2.9.2;1.12.3[0m
+[0m[[0mdebug[0m] [0m	found org.specs2#specs2_2.9.2;1.12.3 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.specs2#specs2-scalaz-core_2.9.2;6.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17e6878b[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.specs2#specs2-scalaz-core_2.9.2;6.0.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.specs2#specs2-scalaz-core_2.9.2;6.0.1[0m
+[0m[[0mdebug[0m] [0m	found org.specs2#specs2-scalaz-core_2.9.2;6.0.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scalap;2.9.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f6549ea[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scalap;2.9.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scalap;2.9.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scalap;2.9.2 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.9.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@bbc653c[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.9.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.9.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.9.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70d162b5[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.thoughtworks.paranamer#paranamer;2.4.1[0m
+[0m[[0mdebug[0m] [0m	found com.thoughtworks.paranamer#paranamer;2.4.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [test->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-library;2.9.2 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.databinder.dispatch#core_2.9.2;0.9.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.ning#async-http-client;1.7.5 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->io.netty#netty;3.4.4.Final [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.slf4j#slf4j-api;1.6.2 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->net.liftweb#lift-json_2.9.2;2.5-M4 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2_2.9.2;1.12.3 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.specs2#specs2-scalaz-core_2.9.2;6.0.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scalap;2.9.2 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->org.scala-lang#scala-compiler;2.9.2 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0->com.thoughtworks.paranamer#paranamer;2.4.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 [pom][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/fhsu/dev/odl-scripts/scala/addflowrest/target/resolution-cache/addflowrest/addflowrest$sources_javadoc_2.9.2/1.0.0/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.9.2!scala-library.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.9.2!scala-library.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.databinder.dispatch#core_2.9.2;0.9.0!core_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/net/databinder/dispatch/core_2.9.2/0.9.0/core_2.9.2-0.9.0-javadoc.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/net/databinder/dispatch/core_2.9.2/0.9.0/core_2.9.2-0.9.0-javadoc.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/databinder/dispatch/core_2.9.2/0.9.0/core_2.9.2-0.9.0-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/databinder/dispatch/core_2.9.2/0.9.0/core_2.9.2-0.9.0-javadoc.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/net/databinder/dispatch/core_2.9.2/0.9.0/core_2.9.2-0.9.0-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.databinder.dispatch#core_2.9.2;0.9.0!core_2.9.2.jar(doc) (1697ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/net/databinder/dispatch/core_2.9.2/0.9.0/core_2.9.2-0.9.0-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/net/databinder/dispatch/core_2.9.2/0.9.0/core_2.9.2-0.9.0-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/databinder/dispatch/core_2.9.2/0.9.0/core_2.9.2-0.9.0-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/databinder/dispatch/core_2.9.2/0.9.0/core_2.9.2-0.9.0-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/net/databinder/dispatch/core_2.9.2/0.9.0/core_2.9.2-0.9.0-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.databinder.dispatch#core_2.9.2;0.9.0!core_2.9.2.jar(src) (933ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.5/async-http-client-1.7.5-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.5/async-http-client-1.7.5-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.5/async-http-client-1.7.5-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.5/async-http-client-1.7.5-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.5/async-http-client-1.7.5-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.ning#async-http-client;1.7.5!async-http-client.jar(src) (1009ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.ning#async-http-client;1.7.5!async-http-client.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.5/async-http-client-1.7.5-javadoc.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.5/async-http-client-1.7.5-javadoc.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.5/async-http-client-1.7.5-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.5/async-http-client-1.7.5-javadoc.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.5/async-http-client-1.7.5-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.ning#async-http-client;1.7.5!async-http-client.jar(doc) (1247ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/io/netty/netty/3.4.4.Final/netty-3.4.4.Final.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/io/netty/netty/3.4.4.Final/netty-3.4.4.Final.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.4.4.Final/netty-3.4.4.Final.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.4.4.Final/netty-3.4.4.Final.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/io/netty/netty/3.4.4.Final/netty-3.4.4.Final.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.netty#netty;3.4.4.Final!netty.jar (791ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/io/netty/netty/3.4.4.Final/netty-3.4.4.Final-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/io/netty/netty/3.4.4.Final/netty-3.4.4.Final-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.4.4.Final/netty-3.4.4.Final-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.4.4.Final/netty-3.4.4.Final-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/io/netty/netty/3.4.4.Final/netty-3.4.4.Final-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.netty#netty;3.4.4.Final!netty.jar(src) (1140ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/io/netty/netty/3.4.4.Final/netty-3.4.4.Final-javadoc.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/io/netty/netty/3.4.4.Final/netty-3.4.4.Final-javadoc.jar[0m
+[0m[[33mwarn[0m] [0m	[NOT FOUND  ] io.netty#netty;3.4.4.Final!netty.jar(doc) (194ms)[0m
+[0m[[33mwarn[0m] [0m==== public: tried[0m
+[0m[[33mwarn[0m] [0m  http://repo1.maven.org/maven2/io/netty/netty/3.4.4.Final/netty-3.4.4.Final-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/fhsu/.ivy2/local/org.slf4j/slf4j-api/1.6.2/srcs/slf4j-api-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/fhsu/.ivy2/local/org.slf4j/slf4j-api/1.6.2/docs/slf4j-api-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.2!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.6.2!slf4j-api.jar(src) (282ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2-javadoc.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2-javadoc.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2-javadoc.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.6.2!slf4j-api.jar(doc) (568ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.liftweb#lift-json_2.9.2;2.5-M4!lift-json_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/net/liftweb/lift-json_2.9.2/2.5-M4/lift-json_2.9.2-2.5-M4-javadoc.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/net/liftweb/lift-json_2.9.2/2.5-M4/lift-json_2.9.2-2.5-M4-javadoc.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/liftweb/lift-json_2.9.2/2.5-M4/lift-json_2.9.2-2.5-M4-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/liftweb/lift-json_2.9.2/2.5-M4/lift-json_2.9.2-2.5-M4-javadoc.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/net/liftweb/lift-json_2.9.2/2.5-M4/lift-json_2.9.2-2.5-M4-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.liftweb#lift-json_2.9.2;2.5-M4!lift-json_2.9.2.jar(doc) (1094ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/net/liftweb/lift-json_2.9.2/2.5-M4/lift-json_2.9.2-2.5-M4-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/net/liftweb/lift-json_2.9.2/2.5-M4/lift-json_2.9.2-2.5-M4-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/liftweb/lift-json_2.9.2/2.5-M4/lift-json_2.9.2-2.5-M4-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/net/liftweb/lift-json_2.9.2/2.5-M4/lift-json_2.9.2-2.5-M4-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/net/liftweb/lift-json_2.9.2/2.5-M4/lift-json_2.9.2-2.5-M4-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.liftweb#lift-json_2.9.2;2.5-M4!lift-json_2.9.2.jar(src) (537ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2_2.9.2;1.12.3!specs2_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/specs2/specs2_2.9.2/1.12.3/specs2_2.9.2-1.12.3-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/specs2/specs2_2.9.2/1.12.3/specs2_2.9.2-1.12.3-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/specs2/specs2_2.9.2/1.12.3/specs2_2.9.2-1.12.3-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/specs2/specs2_2.9.2/1.12.3/specs2_2.9.2-1.12.3-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/specs2/specs2_2.9.2/1.12.3/specs2_2.9.2-1.12.3-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.specs2#specs2_2.9.2;1.12.3!specs2_2.9.2.jar(src) (1083ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/specs2/specs2_2.9.2/1.12.3/specs2_2.9.2-1.12.3-javadoc.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/specs2/specs2_2.9.2/1.12.3/specs2_2.9.2-1.12.3-javadoc.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/specs2/specs2_2.9.2/1.12.3/specs2_2.9.2-1.12.3-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/specs2/specs2_2.9.2/1.12.3/specs2_2.9.2-1.12.3-javadoc.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/specs2/specs2_2.9.2/1.12.3/specs2_2.9.2-1.12.3-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.specs2#specs2_2.9.2;1.12.3!specs2_2.9.2.jar(doc) (3171ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.2/6.0.1/specs2-scalaz-core_2.9.2-6.0.1-javadoc.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.2/6.0.1/specs2-scalaz-core_2.9.2-6.0.1-javadoc.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.2/6.0.1/specs2-scalaz-core_2.9.2-6.0.1-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.2/6.0.1/specs2-scalaz-core_2.9.2-6.0.1-javadoc.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.2/6.0.1/specs2-scalaz-core_2.9.2-6.0.1-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.specs2#specs2-scalaz-core_2.9.2;6.0.1!specs2-scalaz-core_2.9.2.jar(doc) (2297ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2-scalaz-core_2.9.2;6.0.1!specs2-scalaz-core_2.9.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.2/6.0.1/specs2-scalaz-core_2.9.2-6.0.1-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.2/6.0.1/specs2-scalaz-core_2.9.2-6.0.1-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.2/6.0.1/specs2-scalaz-core_2.9.2-6.0.1-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.2/6.0.1/specs2-scalaz-core_2.9.2-6.0.1-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.2/6.0.1/specs2-scalaz-core_2.9.2-6.0.1-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.specs2#specs2-scalaz-core_2.9.2;6.0.1!specs2-scalaz-core_2.9.2.jar(src) (605ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scalap/2.9.2/scalap-2.9.2-javadoc.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scalap/2.9.2/scalap-2.9.2-javadoc.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scalap/2.9.2/scalap-2.9.2-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scalap/2.9.2/scalap-2.9.2-javadoc.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scalap/2.9.2/scalap-2.9.2-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scalap;2.9.2!scalap.jar(doc) (1872ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scalap;2.9.2!scalap.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scalap/2.9.2/scalap-2.9.2-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scalap/2.9.2/scalap-2.9.2-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scalap/2.9.2/scalap-2.9.2-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scalap/2.9.2/scalap-2.9.2-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scalap/2.9.2/scalap-2.9.2-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scalap;2.9.2!scalap.jar(src) (1686ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/fhsu/.ivy2/local/org.scala-lang/scala-compiler/2.9.2/srcs/scala-compiler-sources.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/fhsu/.ivy2/local/org.scala-lang/scala-compiler/2.9.2/docs/scala-compiler-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.9.2!scala-compiler.jar(src) (1577ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2-javadoc.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2-javadoc.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2-javadoc.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.9.2/scala-compiler-2.9.2-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.9.2!scala-compiler.jar(doc) (4773ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.4.1!paranamer.jar(src) (173ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1-javadoc.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1-javadoc.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1-javadoc.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.4.1/paranamer-2.4.1-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.4.1!paranamer.jar(doc) (229ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.4.1!paranamer.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 881ms :: artifacts dl 27074ms[0m
+[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
+[0m[[33mwarn[0m] [0m	::              FAILED DOWNLOADS            ::[0m
+[0m[[33mwarn[0m] [0m	:: ^ see resolution messages for details  ^ ::[0m
+[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
+[0m[[33mwarn[0m] [0m	:: io.netty#netty;3.4.4.Final!netty.jar(doc)[0m
+[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
+[0m[[0mdebug[0m] [0m	report for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 compile produced in /Users/fhsu/dev/odl-scripts/scala/addflowrest/target/resolution-cache/reports/addflowrest-addflowrest$sources_javadoc_2.9.2-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 runtime produced in /Users/fhsu/dev/odl-scripts/scala/addflowrest/target/resolution-cache/reports/addflowrest-addflowrest$sources_javadoc_2.9.2-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 test produced in /Users/fhsu/dev/odl-scripts/scala/addflowrest/target/resolution-cache/reports/addflowrest-addflowrest$sources_javadoc_2.9.2-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 provided produced in /Users/fhsu/dev/odl-scripts/scala/addflowrest/target/resolution-cache/reports/addflowrest-addflowrest$sources_javadoc_2.9.2-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 optional produced in /Users/fhsu/dev/odl-scripts/scala/addflowrest/target/resolution-cache/reports/addflowrest-addflowrest$sources_javadoc_2.9.2-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 compile-internal produced in /Users/fhsu/dev/odl-scripts/scala/addflowrest/target/resolution-cache/reports/addflowrest-addflowrest$sources_javadoc_2.9.2-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 runtime-internal produced in /Users/fhsu/dev/odl-scripts/scala/addflowrest/target/resolution-cache/reports/addflowrest-addflowrest$sources_javadoc_2.9.2-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 test-internal produced in /Users/fhsu/dev/odl-scripts/scala/addflowrest/target/resolution-cache/reports/addflowrest-addflowrest$sources_javadoc_2.9.2-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 plugin produced in /Users/fhsu/dev/odl-scripts/scala/addflowrest/target/resolution-cache/reports/addflowrest-addflowrest$sources_javadoc_2.9.2-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 sources produced in /Users/fhsu/dev/odl-scripts/scala/addflowrest/target/resolution-cache/reports/addflowrest-addflowrest$sources_javadoc_2.9.2-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 docs produced in /Users/fhsu/dev/odl-scripts/scala/addflowrest/target/resolution-cache/reports/addflowrest-addflowrest$sources_javadoc_2.9.2-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for addflowrest#addflowrest$sources_javadoc_2.9.2;1.0.0 pom produced in /Users/fhsu/dev/odl-scripts/scala/addflowrest/target/resolution-cache/reports/addflowrest-addflowrest$sources_javadoc_2.9.2-pom.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (881ms resolve - 27074ms download)[0m

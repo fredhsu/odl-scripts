@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: org.specs2:specs2-scalaz-core_2.9.2:6.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.2/jars/specs2-scalaz-core_2.9.2-6.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.2/docs/specs2-scalaz-core_2.9.2-6.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.2/srcs/specs2-scalaz-core_2.9.2-6.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

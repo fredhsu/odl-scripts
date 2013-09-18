@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: net.databinder.dispatch:core_2.9.2:0.9.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.databinder.dispatch/core_2.9.2/jars/core_2.9.2-0.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.databinder.dispatch/core_2.9.2/docs/core_2.9.2-0.9.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.databinder.dispatch/core_2.9.2/srcs/core_2.9.2-0.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

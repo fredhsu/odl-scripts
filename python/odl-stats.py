@@ -3,7 +3,8 @@ import json
 
 h = httplib2.Http(".cache")
 h.add_credentials('admin', 'admin')
-resp, content = h.request('http://10.55.17.20:8080/controller/nb/v2/statistics/default/flowstats', "GET")
+# Updated 8 SEP 2013 to reflect new rest api, changed from /flowstats to /flow
+resp, content = h.request('http://10.55.17.20:8080/controller/nb/v2/statistics/default/flow', "GET")
 allFlowStats = json.loads(content)
 flowStats = allFlowStats['flowStatistics']
 # These JSON dumps were handy when trying to parse the responses 
