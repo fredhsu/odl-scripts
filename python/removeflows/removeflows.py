@@ -19,7 +19,7 @@ def build_flow_url(baseUrl, containerName, switchType, switchId, flowName):
   return postUrl
 
 # Get all the flows
-resp, content = h.request(build_url(baseUrl, 'flow', containerName), "GET")
+resp, content = h.request(build_url(baseUrl, 'flowprogrammer', containerName), "GET")
 flowsList = json.loads(content)
 odlFlowConfigs = flowsList['flowConfig']
 
