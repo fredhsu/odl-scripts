@@ -16,7 +16,7 @@ odlEdges = edgeProperties['edgeProperties']
 print json.dumps(odlEdges, indent = 2)
 
 # Get all the nodes/switches
-resp, content = h.request(baseUrl + 'switch/' + containerName + 'nodes/', "GET")
+resp, content = h.request(baseUrl + 'switchmanager/' + containerName + 'nodes/', "GET")
 nodeProperties = json.loads(content)
 odlNodes = nodeProperties['nodeProperties']
 print json.dumps(odlNodes, indent = 2)
@@ -24,9 +24,9 @@ print json.dumps(odlNodes, indent = 2)
 # Put nodes and edges into a graph
 graph = nx.Graph()
 for node in odlNodes:
-  graph.add_node(node['node']['@id'])
+  graph.add_node(node['node']['id'])
 for edge in odlEdges:
-  e = (edge['edge']['headNodeConnector']['node']['@id'], edge['edge']['tailNodeConnector']['node']['@id'])
+  e = (edge['edge']['headNodeConnector']['node']['id'], edge['edge']['tailNodeConnector']['node']['id'])
   graph.add_edge(*e)
 # Print out graph info as a sanity check
 print graph.number_of_nodes()
