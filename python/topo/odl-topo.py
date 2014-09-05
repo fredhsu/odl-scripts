@@ -46,6 +46,16 @@ for host in hosts:
 print "Number of nodes add in the graph:", graph.number_of_nodes()
 print "Nodes are:", graph.nodes()
 
+print "Paths from 10.0.0.1 -> 10.0.0.3"
+asp = nx.all_simple_paths(graph, source="10.0.0.1", target="10.0.0.3")
+for p in asp:
+    print p
+
+print "Paths from 10.0.0.2 -> 10.0.0.4"
+asp = nx.all_simple_paths(graph, source="10.0.0.2", target="10.0.0.4")
+for p in asp:
+    print p
+
 # write json formatted data to use in visualization
 d = json_graph.node_link_data(graph)
 json.dump(d, open('topo.json','w'))
